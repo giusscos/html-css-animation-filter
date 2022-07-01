@@ -41,13 +41,147 @@
     transform: scale(0.6);
 }
 /* End 5th square */
-/* 6th square */
+/* 6th img */
 .ex-6-img:hover{
     filter: grayscale(1);   
 }
-/* End 6th square */
-/* 7th square */
+/* End 6th img */
+/* 7th img */
 .ex-7-img:hover{
     filter: grayscale(1) blur(5px);   
 }
-/* End 7th square */
+/* End 7th img */
+/* 8th img */
+.ex-8-img{
+    transition: all 1000ms ease-in-out;
+}
+.ex-8-img:hover{
+    filter: grayscale(1) sepia(1);   
+    border-radius: 20px;
+}
+/* End 8th img */
+/* 9th img */
+.ex-9-img{
+    transition: all 1000ms ease-in-out;
+}
+.ex-9-img:hover{
+    filter: grayscale(1) sepia(1);   
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+/* End 9th img */
+/* 10th obj */
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.ex-10-icon{
+    animation: rotation 1000ms infinite linear reverse;
+}
+/* End 10th obj */
+/* 11th obs */
+@keyframes old-tel {
+    0%{
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(340deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.ex-11-icon:hover{
+    animation: old-tel 2000ms cubic-bezier(1,-0.01,.61,.72);
+}
+/* End 11th obj */
+/* 12th obj */
+@keyframes top-white-12 {
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: 70%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+@keyframes bottom-white-12 {
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: 70%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+.ex-12-button:hover .ex-12-top-white{
+    animation: top-white-12 1500ms linear;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-white-12 1500ms linear;
+}
+/* End 12th obj */
+/* 13th obj */
+@keyframes top-white-13 {
+    0%{
+        left: 10%;
+    }
+    20%{
+        top: -10px;
+        left: 80%;
+    }
+    40%{
+        top: 60px;
+        left: 80%;
+    }
+    60%{
+        top: 60px;
+        left: -10%;
+    }
+    80%{
+        top: -10px;
+        left: -10%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+@keyframes bottom-white-13 {
+    0%{
+        right: 20%;
+    }
+    20%{
+        bottom: -10px;
+        right: 80%;
+    }
+    40%{
+        bottom: 60px;
+        right: 80%;
+    }
+    60%{
+        bottom: 60px;
+        right: -10%;
+    }
+    80%{
+        bottom: -10px;
+        right: -10%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+.ex-13-button:hover .ex-13-top-white{
+    animation: top-white-13 3000ms ease-in-out;
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bottom-white-13 3000ms ease-in-out;
+}
+/* End 13th obj */
