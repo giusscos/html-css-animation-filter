@@ -1,6 +1,53 @@
+/* 1st square */
 .ex-1-square{
     transition: all 1000ms ease-in-out;
 }
 .ex-1-square:hover{
     background-color: red;
 }
+/* End 1st square */
+/* 2nd square */
+.ex-2-square{
+    transition: all 2000ms ease-in-out;
+}
+.ex-2-square:active{
+    width: 100%;
+}
+/* End 2nd square */
+/* 3rd square */
+.ex-3-square{
+    transition: all 1000ms ease;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/* End 3rd square */
+/* 4th square */
+.ex-4-square{
+    transition: all 1000ms ease;
+}
+.ex-4-square:hover{
+    opacity: 0;
+}
+/* End 4th square */
+/* 5th square */
+.ex-5-square{
+    transition: all 1000ms ease;
+}
+.ex-5-square:hover{
+    transform: scale(2);
+}
+.ex-5-square:active{
+    transform: scale(0.6);
+}
+/* End 5th square */
+/* 6th square */
+.ex-6-img:hover{
+    filter: grayscale(1);   
+}
+/* End 6th square */
+/* 7th square */
+.ex-7-img:hover{
+    filter: grayscale(1) blur(5px);   
+}
+/* End 7th square */
